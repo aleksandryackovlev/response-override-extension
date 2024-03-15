@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import './Panel.css';
 
 const Panel: React.FC = () => {
   useEffect(() => {
@@ -9,7 +8,7 @@ const Panel: React.FC = () => {
     });
   }, [])
   return (
-    <div className="container">
+    <div className="text-sky-900">
       <h1>Dev Tools Panel 14</h1>
     </div>
   );
